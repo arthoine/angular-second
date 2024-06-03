@@ -1,0 +1,15 @@
+.home-container {
+  @apply p-4 bg-white rounded shadow-md;
+  h1 {
+    @apply text-primary;
+  }
+  p {
+    @apply text-secondary;
+  }
+  ul {
+    @apply mt-6 list-disc list-inside;
+    li {
+      @apply text-lg text-primary;
+    }
+  }
+}
