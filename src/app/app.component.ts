@@ -12,7 +12,7 @@ import { RouterModule } from '@angular/router';
     <main>
       <a [routerLink]="['/']">
         <header class="brand-name">
-          <img class="brand-logo" src="/assets/logo.svg" alt="logo" aria-hidden="true">
+          <img class="brand-logo" src="../assets/pokeapi_256.png" alt="logo" aria-hidden="true" class="h-20">
         </header>
       </a>
       <section class="content">
