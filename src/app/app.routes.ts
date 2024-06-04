@@ -1,7 +1,8 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from './component/home/home.component';
+import {PokemonComponent} from "./component/pokemon/pokemon.component";
 
 export const routes: Routes = [
-  { path: 'home', component: HomeComponent },
-  { path: '', redirectTo: '/home', pathMatch: 'full' }
+  { path: '', component: HomeComponent },
+  { path: 'external', component: PokemonComponent },
 ];
